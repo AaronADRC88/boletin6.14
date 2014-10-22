@@ -11,5 +11,5 @@ public Tenda (String c , float p){
     codigo=c;
     precio=p;
 }
-String codigoC1
+
 }
