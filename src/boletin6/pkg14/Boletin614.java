@@ -13,13 +13,12 @@ public class Boletin614 {
      Tenda tenda1=new Tenda("C1",24f);
      Tenda tenda2=new Tenda("H23",234f);
      Tenda tenda3=new Tenda("M30",109f);
-     System.out.println("prezos do C1, H23 e M30"+"\n"+tenda1.getCodigo()+"\t"+tenda1.getPrezo()+"€"+"\n"+tenda2.getCodigo()+"\t"
-     +tenda2.getPrezo()+"€"+"\n"+tenda3.getCodigo()+"\t"+tenda3.getPrezo()+"€");
+     System.out.println("prezos do C1, H23 e M30"+"\n"+tenda1.toString()+"\t"+"\n"+tenda2.toString()+"\n"+tenda3.toString());
      tenda2.setCodigo("K123");
      tenda2.setPrezo(247);
-     System.out.println("prezos do C1, H23 e M30"+"\n"+tenda1.getCodigo()+"\t"+tenda1.getPrezo()+"€"+"\n"+tenda2.getCodigo()+"\t"
-     +tenda2.getPrezo()+"€"+"\n"+tenda3.getCodigo()+"\t"+tenda3.getPrezo()+"€");
+     System.out.println("prezos do C1, K123 e M30"+"\n"+tenda1.toString()+"\t"+"\n"+tenda2.toString()+"\n"+tenda3.toString());
      
+    ;
         
     
   

@@ -11,7 +11,11 @@ public Tenda (String c , float p){
     codigo= c;
     prezo=p;
 }
-
+@Override
+    public String toString(){
+    return "codigo:"+codigo+"\t"+"prezo:"+prezo+"€";
+    
+}
     Tenda() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
